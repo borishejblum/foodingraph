@@ -26,9 +26,10 @@ Imports:
   rlang,
   grid
 Suggests:
-  knitr,
   infotheo,
+  knitr,
   minet,
+  rmarkdown
 VignetteBuilder:
   knitr
 URL: https://github.com/vgasque/foodingraph/
