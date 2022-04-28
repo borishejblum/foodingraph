@@ -20,7 +20,7 @@ This is a resubmission.
 
 ## Test environments
 * local OS X install, R 3.6.1
-* ubuntu 16.04 (on travis-ci), R 3.6.1
+* Linux (Ubuntu 20.04), macOS (11.6) and Windows (Server 2019 10.0), R devel and release (through GitHub Actions)
 * win-builder (devel and release)
 
 ## R CMD check results
