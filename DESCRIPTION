@@ -13,11 +13,13 @@ License: GPL-3 + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports:
+  cowplot,
   dplyr,
   ggraph,
   ggplot2,
   infotheo,
   igraph,
+  labeling,
   magrittr,
   minerva,
   rlang,
@@ -26,7 +28,6 @@ Imports:
   tidyr,
   viridis
 Suggests:
-  cowplot,
   grid,
   knitr,
   minet,
