@@ -4,10 +4,18 @@
 \alias{compare_graphs}
 \title{Compare two graphs}
 \usage{
-compare_graphs(graph1, graph2, titles = NULL, position = c("vertical",
-  "horizontal"), n_nodes = 5, n_weights = 5,
-  edge_width_range = c(0.2, 2), edge_alpha_range = c(0.4, 1),
-  node_size_range = c(1, 10), unique_legend = TRUE)
+compare_graphs(
+  graph1,
+  graph2,
+  titles = NULL,
+  position = c("vertical", "horizontal"),
+  n_nodes = 5,
+  n_weights = 5,
+  edge_width_range = c(0.2, 2),
+  edge_alpha_range = c(0.4, 1),
+  node_size_range = c(1, 10),
+  unique_legend = TRUE
+)
 }
 \arguments{
 \item{graph1}{: the first graph}

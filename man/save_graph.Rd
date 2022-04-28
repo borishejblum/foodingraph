@@ -4,8 +4,7 @@
 \alias{save_graph}
 \title{Save graph}
 \usage{
-save_graph(graph, filename = NULL, width = 25, height = 20,
-  dpi = 300, ...)
+save_graph(graph, filename = NULL, width = 25, height = 20, dpi = 300, ...)
 }
 \arguments{
 \item{graph}{: the graph}

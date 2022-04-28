@@ -14,19 +14,19 @@ Encoding: UTF-8
 LazyData: true
 Imports:
   dplyr,
+  ggraph,
   ggplot2,
+  infotheo,
+  igraph,
   magrittr,
+  minerva,
+  rlang,
   stringr,
   tibble,
   tidyr,
-  viridis,
-  igraph,
-  ggraph,
-  minerva,
-  rlang,
-  grid
+  viridis
 Suggests:
-  infotheo,
+  grid,
   knitr,
   minet,
   rmarkdown
@@ -34,4 +34,4 @@ VignetteBuilder:
   knitr
 URL: https://github.com/vgasque/foodingraph/
 BugReports: https://github.com/vgasque/foodingraph/issues
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.2

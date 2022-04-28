@@ -21,7 +21,9 @@
 #' @return The mean of the percentile values.
 #'
 #' @examples
-#' boot_simulated_cat_bin("cat", "mic")
+#' if(interactive()){
+#'   boot_simulated_cat_bin("cat", "mic")
+#' }
 #'
 #' @references
 #' \enumerate{
@@ -35,6 +37,7 @@
 #'
 #' @importFrom stats rbinom rmultinom runif
 #' @importFrom minerva cstats
+#' @importFrom infotheo mutinformation
 #' @export
 boot_simulated_cat_bin <- function(type = c("cat", "bin", "bincat"),
                                    method = c("mic", "mi"),

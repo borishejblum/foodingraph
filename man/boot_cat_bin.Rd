@@ -4,9 +4,17 @@
 \alias{boot_cat_bin}
 \title{Bootstrap inference on binary and categorical variables}
 \usage{
-boot_cat_bin(obs_data, list_cat_var, list_bin_var, threshold_bin,
-  threshold_cat, threshold_bin_cat, method = c("mi", "mic"),
-  boots = 5000, show_progress = T)
+boot_cat_bin(
+  obs_data,
+  list_cat_var,
+  list_bin_var,
+  threshold_bin,
+  threshold_cat,
+  threshold_bin_cat,
+  method = c("mi", "mic"),
+  boots = 5000,
+  show_progress = T
+)
 }
 \arguments{
 \item{obs_data}{(data.frame or matrix) : a dataset which rows are

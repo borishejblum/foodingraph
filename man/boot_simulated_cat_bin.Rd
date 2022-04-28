@@ -4,9 +4,14 @@
 \alias{boot_simulated_cat_bin}
 \title{Confidence-interval bootstraps on simulated independent variables}
 \usage{
-boot_simulated_cat_bin(type = c("cat", "bin", "bincat"),
-  method = c("mic", "mi"), simu = 10, boots = 5000, size = 500,
-  percentile = 0.99)
+boot_simulated_cat_bin(
+  type = c("cat", "bin", "bincat"),
+  method = c("mic", "mi"),
+  simu = 10,
+  boots = 5000,
+  size = 500,
+  percentile = 0.99
+)
 }
 \arguments{
 \item{type}{: the type of the simulated variables: \code{cat} is for 2 ordinal variables,
@@ -37,7 +42,9 @@ of the bootstrap distribution of the chosen method : mutual information or the m
 information coefficient. The percentile method is used to calculate this interval.
 }
 \examples{
-boot_simulated_cat_bin("cat", "mic")
+if(interactive()){
+  boot_simulated_cat_bin("cat", "mic")
+}
 
 }
 \references{

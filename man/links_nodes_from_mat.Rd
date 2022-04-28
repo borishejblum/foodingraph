@@ -4,8 +4,13 @@
 \alias{links_nodes_from_mat}
 \title{Extracts links and nodes}
 \usage{
-links_nodes_from_mat(adjacency_matrix, legend, threshold = 0,
-  abs_threshold = T, filter_nodes = T)
+links_nodes_from_mat(
+  adjacency_matrix,
+  legend,
+  threshold = 0,
+  abs_threshold = T,
+  filter_nodes = T
+)
 }
 \arguments{
 \item{adjacency_matrix}{: a matrix of size n x n, each element being an number
