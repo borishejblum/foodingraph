@@ -3,3 +3,4 @@
 ^README.Md
 ^\.travis\.yml$
 ^appveyor\.yml$
+^\.github$
